@@ -352,6 +352,14 @@ ID = "49ded9cc-27d3-4e02-b186-4fd7fd334ed8"
   to = "https://dev-docs.spreecommerce.org/:splat"
 
 [[redirects]]
+  from = "/user/configuration/configuring_*"
+  to = "https://user-docs.spreecommerce.org/configuration/:splat"
+
+[[redirects]]
+  from = "/user/*"
+  to = "https://user-docs.spreecommerce.org/:splat"
+
+[[redirects]]
   from = "/api"
   to = "https://api.spreecommerce.org"
 
@@ -366,3 +374,7 @@ ID = "49ded9cc-27d3-4e02-b186-4fd7fd334ed8"
 [[redirects]]
   from = "/extensions"
   to = "https://dev-docs.spreecommerce.org/extensions/extensions"
+
+[[redirects]]
+  from = "/"
+  to = "https://dev-docs.spreecommerce.org/"
